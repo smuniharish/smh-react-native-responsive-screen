@@ -41,4 +41,4 @@ const listenOrientationChange = (that: any) => {
   });
 };
 
-export { widthPercentageToDP, heightPercentageToDP, listenOrientationChange };
+export {screenWidth as SCREEN_WIDTH,screenHeight as SCREEN_HEIGHT, widthPercentageToDP, heightPercentageToDP, listenOrientationChange };
